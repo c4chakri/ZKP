@@ -4,7 +4,7 @@
   multiplier.circom
   Proves that private inputs a and b multiply to public output c.
 */
-
+ 
 template Multiplier() {
     // private signals (witness)
     signal input a;

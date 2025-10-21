@@ -1,5 +1,8 @@
-   0.335105231s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: false }/TargetInner { name: "plonky2-recursion-demo", doc: true, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/src/main.rs", Edition2021) }
-   0.335180014s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-15abfb737619abcc/bin-plonky2-recursion-demo`
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.491043607s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: false }/TargetInner { name: "plonky2-recursion-demo", doc: true, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/src/main.rs", Edition2021) }
+   0.491110750s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-15abfb737619abcc/bin-plonky2-recursion-demo`
 
 Caused by:
     No such file or directory (os error 2)
@@ -43,8 +46,8 @@ Stack backtrace:
   25: __libc_start_main_impl
              at ./csu/../csu/libc-start.c:392:3
   26: <unknown>
-   0.622793292s  INFO prepare_target{force=false package_id=plonky2 v1.1.0 target="plonky2"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2 v1.1.0/Check { test: false }/TargetInner { ..: lib_target("plonky2", ["lib"], "/home/gaian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/plonky2-1.1.0/src/lib.rs", Edition2021) }
-   0.622837682s  INFO prepare_target{force=false package_id=plonky2 v1.1.0 target="plonky2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-3a84e30516f9252b/lib-plonky2`
+   3.150197242s  INFO prepare_target{force=false package_id=plonky2 v1.1.0 target="plonky2"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2 v1.1.0/Check { test: false }/TargetInner { ..: lib_target("plonky2", ["lib"], "/home/gaian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/plonky2-1.1.0/src/lib.rs", Edition2021) }
+   3.150221397s  INFO prepare_target{force=false package_id=plonky2 v1.1.0 target="plonky2"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-3a84e30516f9252b/lib-plonky2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -89,8 +92,8 @@ Stack backtrace:
   26: __libc_start_main_impl
              at ./csu/../csu/libc-start.c:392:3
   27: <unknown>
-   0.630559928s  INFO prepare_target{force=false package_id=plonky2_field v1.0.0 target="plonky2_field"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2_field v1.0.0/Check { test: false }/TargetInner { ..: lib_target("plonky2_field", ["lib"], "/home/gaian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/plonky2_field-1.0.0/src/lib.rs", Edition2021) }
-   0.630590059s  INFO prepare_target{force=false package_id=plonky2_field v1.0.0 target="plonky2_field"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2_field-7bff9d44c0fad4b5/lib-plonky2_field`
+   4.058588020s  INFO prepare_target{force=false package_id=plonky2_field v1.0.0 target="plonky2_field"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2_field v1.0.0/Check { test: false }/TargetInner { ..: lib_target("plonky2_field", ["lib"], "/home/gaian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/plonky2_field-1.0.0/src/lib.rs", Edition2021) }
+   4.058616314s  INFO prepare_target{force=false package_id=plonky2_field v1.0.0 target="plonky2_field"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2_field-7bff9d44c0fad4b5/lib-plonky2_field`
 
 Caused by:
     No such file or directory (os error 2)
@@ -136,8 +139,8 @@ Stack backtrace:
   27: __libc_start_main_impl
              at ./csu/../csu/libc-start.c:392:3
   28: <unknown>
-   0.632378319s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: true }/TargetInner { name: "plonky2-recursion-demo", doc: true, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/src/main.rs", Edition2021) }
-   0.632401136s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-de2292359bd9c948/test-bin-plonky2-recursion-demo`
+   4.183304314s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: true }/TargetInner { name: "plonky2-recursion-demo", doc: true, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/src/main.rs", Edition2021) }
+   4.183346620s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="plonky2-recursion-demo"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-de2292359bd9c948/test-bin-plonky2-recursion-demo`
 
 Caused by:
     No such file or directory (os error 2)
@@ -181,8 +184,8 @@ Stack backtrace:
   25: __libc_start_main_impl
              at ./csu/../csu/libc-start.c:392:3
   26: <unknown>
-   0.633180501s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="aggregate"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: false }/TargetInner { kind: "example", name: "aggregate", tested: false, benched: false, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/examples/aggregate.rs", Edition2021) }
-   0.633200264s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="aggregate"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-f4bc646aa3fe6e43/example-aggregate`
+   4.184563043s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="aggregate"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: false }/TargetInner { kind: "example", name: "aggregate", tested: false, benched: false, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/examples/aggregate.rs", Edition2021) }
+   4.184590912s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="aggregate"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-f4bc646aa3fe6e43/example-aggregate`
 
 Caused by:
     No such file or directory (os error 2)
@@ -226,8 +229,8 @@ Stack backtrace:
   25: __libc_start_main_impl
              at ./csu/../csu/libc-start.c:392:3
   26: <unknown>
-   0.633890821s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="inner"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: false }/TargetInner { kind: "example", name: "inner", tested: false, benched: false, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/examples/inner.rs", Edition2021) }
-   0.633934818s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="inner"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-cfed1417d25c78e6/example-inner`
+   4.185763098s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="inner"}: cargo::core::compiler::fingerprint: fingerprint error for plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo)/Check { test: false }/TargetInner { kind: "example", name: "inner", tested: false, benched: false, ..: with_path("/home/gaian/Gaian/ZKP/plonky2-recursion-demo/examples/inner.rs", Edition2021) }
+   4.185792898s  INFO prepare_target{force=false package_id=plonky2-recursion-demo v0.1.0 (/home/gaian/Gaian/ZKP/plonky2-recursion-demo) target="inner"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/gaian/Gaian/ZKP/plonky2-recursion-demo/target/debug/.fingerprint/plonky2-recursion-demo-cfed1417d25c78e6/example-inner`
 
 Caused by:
     No such file or directory (os error 2)
